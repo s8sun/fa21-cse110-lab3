@@ -1,3 +1,1 @@
-https://s8sun.github.io/Lab2/
-
-Do I push to the right place? Lab3
+https://s8sun.github.io/fa21-cse110-lab3/
