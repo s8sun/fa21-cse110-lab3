@@ -2,6 +2,25 @@
   font-family: "IndieFlower";
   src: url("font/IndieFlower.ttf");
 }
+*{
+  color: darkslateblue;
+}
+
+section > div{
+  font-size: large;
+}
+
+div ~ nav{
+  background-color: orange;
+}
+
+b + span{
+  color:orchid;
+}
+
+select, option{
+  background-color: lightblue;
+}
 /* body of the html page */
 body {
     background-color: lavender;
@@ -38,6 +57,11 @@ h4{
     margin: auto;
     display: inline;
 }
+/* Need to specify before the general p selector */
+.intro{
+  color: Blue;
+}
+
 p{
     padding-left: 5vw;
     padding-top: auto;
@@ -48,6 +72,7 @@ p{
     border-width: 1px;
     border-radius: 1cm;
     display:  block;
+    /* color: white; */
 }
 div{
     padding: 10px, 3px, 3px, 3px;
@@ -97,5 +122,20 @@ fieldset{
     /* CSS will apply styles only if your browser's viewport width 
     is equal to or narrower than 12450px: */
   }
+}
+[href*="http"]{
+  background-color: darkturquoise;
+}
 
+/* Descendant Combinator */
+fieldset div{
+  color:navy;
+}
+
+span b{
+  color: orchid;
+}
+div.link{
+  margin-left: 1vw;
+  font-size: larger;
 }
